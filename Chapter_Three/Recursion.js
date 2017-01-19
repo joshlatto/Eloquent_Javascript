@@ -17,6 +17,8 @@ Date: 1/18/2017
 
 var isEven = function(number) {
 
+  number = Math.abs(number)
+
   if (number == 0) {
     return true;
   } 
@@ -29,9 +31,14 @@ var isEven = function(number) {
 
 }
 
+// Tests
+
+console.log("Test cases are 50, 75, -1, and -6 respectively")
+
 console.log(isEven(50))
 
 console.log(isEven(75))
 
-
+console.log(isEven(-1))
   
+console.log(isEven(-6))
