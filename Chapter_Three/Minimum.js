@@ -25,3 +25,7 @@ my_min(4, 10);
 my_min(4, 4);
 
 my_min(7, 3);
+
+my_min(0, 10);
+
+my_min(0, -10);
